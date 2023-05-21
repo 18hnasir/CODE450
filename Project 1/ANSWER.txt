@@ -1,0 +1,372 @@
+C:\Users\18hna\OneDrive\Documents\Computer Science\CS 455\Project 1>python my-dns-client.py www.cnn.com
+←c
+Preparing DNS Query
+DNS query header = a99c01000001000000000000
+DNS query question section = 0377777703636e6e03636f6d0000010001
+Complete DNS Query = a99c010000010000000000000377777703636e6e03636f6d0000010001
+
+Contacting DNS server..
+Sending DNS query..
+DNS response received (attempt 1 of 3)
+Processing DNS response..
+------------------------------------------------------------
+
+
+header.ID      = a99c
+header.QR      = 0001
+header.OPCODE  = 0000
+header.AA      = 0000
+header.TC      = 0000
+header.RD      = 0001
+header.RA      = 0001
+header.Z       = 0000
+header.RCODE   = 0000
+header.QDCOUNT = 0001
+header.ANCOUNT = 0005
+header.NSCOUNT = 0000
+header.ARCOUNT = 0000
+
+
+question.QNAME  = www.cnn.com
+question.QTYPE  = 0001
+question.QCLASS = 0001
+
+
+answer.NAME     = c00c
+answer.TYPE     = 0005
+answer.CLASS    = 0001
+answer.TTL      = 000000d4
+answer.RDLENGTH = 001b
+answer.RDATA    = 0a7475726e65722d746c73036d617006666173746c79036e657400
+
+
+answer.NAME     = c029
+answer.TYPE     = 0001
+answer.CLASS    = 0001
+answer.TTL      = 00000002
+answer.RDLENGTH = 0004
+answer.RDATA    = 151.101.1.67
+
+
+answer.NAME     = c029
+answer.TYPE     = 0001
+answer.CLASS    = 0001
+answer.TTL      = 00000002
+answer.RDLENGTH = 0004
+answer.RDATA    = 151.101.65.67
+
+
+answer.NAME     = c029
+answer.TYPE     = 0001
+answer.CLASS    = 0001
+answer.TTL      = 00000002
+answer.RDLENGTH = 0004
+answer.RDATA    = 151.101.129.67
+
+
+answer.NAME     = c029
+answer.TYPE     = 0001
+answer.CLASS    = 0001
+answer.TTL      = 00000002
+answer.RDLENGTH = 0004
+answer.RDATA    = 151.101.193.67
+
+
+
+C:\Users\18hna\OneDrive\Documents\Computer Science\CS 455\Project 1>python my-dns-client.py www.gmu.edu
+←c
+Preparing DNS Query
+DNS query header = a99c01000001000000000000
+DNS query question section = 0377777703676d75036564750000010001
+Complete DNS Query = a99c010000010000000000000377777703676d75036564750000010001
+
+Contacting DNS server..
+Sending DNS query..
+DNS response received (attempt 1 of 3)
+Processing DNS response..
+------------------------------------------------------------
+
+
+header.ID      = a99c
+header.QR      = 0001
+header.OPCODE  = 0000
+header.AA      = 0000
+header.TC      = 0000
+header.RD      = 0001
+header.RA      = 0001
+header.Z       = 0000
+header.RCODE   = 0000
+header.QDCOUNT = 0001
+header.ANCOUNT = 0001
+header.NSCOUNT = 0000
+header.ARCOUNT = 0000
+
+
+question.QNAME  = www.gmu.edu
+question.QTYPE  = 0001
+question.QCLASS = 0001
+
+
+answer.NAME     = c00c
+answer.TYPE     = 0001
+answer.CLASS    = 0001
+answer.TTL      = 00000078
+answer.RDLENGTH = 0004
+answer.RDATA    = 192.124.249.68
+
+
+
+C:\Users\18hna\OneDrive\Documents\Computer Science\CS 455\Project 1>python my-dns-client.py www.vt.edu
+←c
+Preparing DNS Query
+DNS query header = a99c01000001000000000000
+DNS query question section = 03777777027674036564750000010001
+Complete DNS Query = a99c0100000100000000000003777777027674036564750000010001
+
+Contacting DNS server..
+Sending DNS query..
+DNS response received (attempt 1 of 3)
+Processing DNS response..
+------------------------------------------------------------
+
+
+header.ID      = a99c
+header.QR      = 0001
+header.OPCODE  = 0000
+header.AA      = 0000
+header.TC      = 0000
+header.RD      = 0001
+header.RA      = 0001
+header.Z       = 0000
+header.RCODE   = 0000
+header.QDCOUNT = 0001
+header.ANCOUNT = 0001
+header.NSCOUNT = 0000
+header.ARCOUNT = 0000
+
+
+question.QNAME  = www.vt.edu
+question.QTYPE  = 0001
+question.QCLASS = 0001
+
+
+answer.NAME     = c00c
+answer.TYPE     = 0001
+answer.CLASS    = 0001
+answer.TTL      = 0000002a
+answer.RDLENGTH = 0004
+answer.RDATA    = 198.82.215.14
+
+
+
+C:\Users\18hna\OneDrive\Documents\Computer Science\CS 455\Project 1>python my-dns-client.py www.youtube.com
+←c
+Preparing DNS Query
+DNS query header = a99c01000001000000000000
+DNS query question section = 0377777707796f757475626503636f6d0000010001
+Complete DNS Query = a99c010000010000000000000377777707796f757475626503636f6d0000010001
+
+Contacting DNS server..
+Sending DNS query..
+DNS response received (attempt 1 of 3)
+Processing DNS response..
+------------------------------------------------------------
+
+
+header.ID      = a99c
+header.QR      = 0001
+header.OPCODE  = 0000
+header.AA      = 0000
+header.TC      = 0000
+header.RD      = 0001
+header.RA      = 0001
+header.Z       = 0000
+header.RCODE   = 0000
+header.QDCOUNT = 0001
+header.ANCOUNT = 0011
+header.NSCOUNT = 0000
+header.ARCOUNT = 0000
+
+
+question.QNAME  = www.youtube.com
+question.QTYPE  = 0001
+question.QCLASS = 0001
+
+
+answer.NAME     = c00c
+answer.TYPE     = 0005
+answer.CLASS    = 0001
+answer.TTL      = 00004fc3
+answer.RDLENGTH = 0016
+answer.RDATA    = 0a796f75747562652d7569016c06676f6f676c65c018
+
+
+answer.NAME     = c02d
+answer.TYPE     = 0001
+answer.CLASS    = 0001
+answer.TTL      = 0000000e
+answer.RDLENGTH = 0004
+answer.RDATA    = 142.251.45.110
+
+
+answer.NAME     = c02d
+answer.TYPE     = 0001
+answer.CLASS    = 0001
+answer.TTL      = 0000000e
+answer.RDLENGTH = 0004
+answer.RDATA    = 142.250.73.238
+
+
+answer.NAME     = c02d
+answer.TYPE     = 0001
+answer.CLASS    = 0001
+answer.TTL      = 0000000e
+answer.RDLENGTH = 0004
+answer.RDATA    = 172.217.13.238
+
+
+answer.NAME     = c02d
+answer.TYPE     = 0001
+answer.CLASS    = 0001
+answer.TTL      = 0000000e
+answer.RDLENGTH = 0004
+answer.RDATA    = 172.217.15.78
+
+
+answer.NAME     = c02d
+answer.TYPE     = 0001
+answer.CLASS    = 0001
+answer.TTL      = 0000000e
+answer.RDLENGTH = 0004
+answer.RDATA    = 142.250.188.46
+
+
+answer.NAME     = c02d
+answer.TYPE     = 0001
+answer.CLASS    = 0001
+answer.TTL      = 0000000e
+answer.RDLENGTH = 0004
+answer.RDATA    = 172.217.13.78
+
+
+answer.NAME     = c02d
+answer.TYPE     = 0001
+answer.CLASS    = 0001
+answer.TTL      = 0000000e
+answer.RDLENGTH = 0004
+answer.RDATA    = 172.217.164.174
+
+
+answer.NAME     = c02d
+answer.TYPE     = 0001
+answer.CLASS    = 0001
+answer.TTL      = 0000000e
+answer.RDLENGTH = 0004
+answer.RDATA    = 142.250.81.206
+
+
+answer.NAME     = c02d
+answer.TYPE     = 0001
+answer.CLASS    = 0001
+answer.TTL      = 0000000e
+answer.RDLENGTH = 0004
+answer.RDATA    = 172.217.2.110
+
+
+answer.NAME     = c02d
+answer.TYPE     = 0001
+answer.CLASS    = 0001
+answer.TTL      = 0000000e
+answer.RDLENGTH = 0004
+answer.RDATA    = 142.251.45.14
+
+
+answer.NAME     = c02d
+answer.TYPE     = 0001
+answer.CLASS    = 0001
+answer.TTL      = 0000000e
+answer.RDLENGTH = 0004
+answer.RDATA    = 172.217.0.46
+
+
+answer.NAME     = c02d
+answer.TYPE     = 0001
+answer.CLASS    = 0001
+answer.TTL      = 0000000e
+answer.RDLENGTH = 0004
+answer.RDATA    = 172.217.1.206
+
+
+answer.NAME     = c02d
+answer.TYPE     = 0001
+answer.CLASS    = 0001
+answer.TTL      = 0000000e
+answer.RDLENGTH = 0004
+answer.RDATA    = 142.250.73.206
+
+
+answer.NAME     = c02d
+answer.TYPE     = 0001
+answer.CLASS    = 0001
+answer.TTL      = 0000000e
+answer.RDLENGTH = 0004
+answer.RDATA    = 142.250.65.78
+
+
+answer.NAME     = c02d
+answer.TYPE     = 0001
+answer.CLASS    = 0001
+answer.TTL      = 0000000e
+answer.RDLENGTH = 0004
+answer.RDATA    = 142.251.33.206
+
+
+answer.NAME     = c02d
+answer.TYPE     = 0001
+answer.CLASS    = 0001
+answer.TTL      = 0000000e
+answer.RDLENGTH = 0004
+answer.RDATA    = 172.217.9.206
+
+
+
+C:\Users\18hna\OneDrive\Documents\Computer Science\CS 455\Project 1>python my-dns-client.py www.example.com
+←c
+Preparing DNS Query
+DNS query header = a99c01000001000000000000
+DNS query question section = 03777777076578616d706c6503636f6d0000010001
+Complete DNS Query = a99c0100000100000000000003777777076578616d706c6503636f6d0000010001
+
+Contacting DNS server..
+Sending DNS query..
+DNS response received (attempt 1 of 3)
+Processing DNS response..
+------------------------------------------------------------
+
+
+header.ID      = a99c
+header.QR      = 0001
+header.OPCODE  = 0000
+header.AA      = 0000
+header.TC      = 0000
+header.RD      = 0001
+header.RA      = 0001
+header.Z       = 0000
+header.RCODE   = 0000
+header.QDCOUNT = 0001
+header.ANCOUNT = 0001
+header.NSCOUNT = 0000
+header.ARCOUNT = 0000
+
+
+question.QNAME  = www.example.com
+question.QTYPE  = 0001
+question.QCLASS = 0001
+
+
+answer.NAME     = c00c
+answer.TYPE     = 0001
+answer.CLASS    = 0001
+answer.TTL      = 00000078
+answer.RDLENGTH = 0004
+answer.RDATA    = 93.184.216.34
